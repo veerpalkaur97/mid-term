@@ -1,0 +1,130 @@
+/*site body layout*/
+body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    background: #1d4170;
+}
+
+div#content {
+    padding: 10px;
+}
+.sec-section{
+    padding: 10px;
+}
+#form-contact {
+    padding: 10px;
+}
+main {
+    background: #f0f0f0;
+    max-width:76%;
+    margin: auto;
+}
+
+/* Banner */
+#img {
+    background: url(img/licensed-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* banner text */
+#img h1 {
+    text-align: center;
+    padding: 265px 0px 75px;
+    margin: 0px;
+    color: white;
+    font-size: 50px;
+}
+/* menu list  */
+div#nav ul {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+div#nav ul li {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+div#nav ul li:nth-child(2) {
+    border: 1px solid black;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+/* layout */
+.flex {
+    display: flex;
+}
+
+div#content img {
+    width: 100%;
+}
+
+.sec1 {
+    width: 20%;
+}
+
+.sec2 {
+    width: 80%;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 11px 0px;
+}
+
+div#content p {
+    padding: 0px 18px;
+    margin: 0px;
+    font-size: 17px;
+}
+
+
+/* footer */
+footer {
+    padding: 10px;
+    text-align: right;
+}
+/* facts area */
+.sec-section ul {
+    padding-top: 1px;
+    font-size: 17px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/* form design */
+form {
+    border: 1px solid;
+    padding: 18px 14px;
+    border-color: black;
+}
+.full-width {
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+.formtext {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+}
+.radio {
+    font-size: 18px;
+}
+#submit {
+    border: 1px solid black;
+    width: 90px;
+    font-size: 14px;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background: transparent;
+}
